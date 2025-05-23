@@ -8,10 +8,11 @@ function readData(file, id) {
 }
 
 function processData(data) {
-    // console.log("Processing data");
-    // console.log(data);
-    // Process the data as needed
-    // For example, you can convert strings to numbers, filter data, etc.
+   // console.log("Processing data");
+   let dataItem = {
+    year: parseFloat(data.year) || 0.0,
+    avg: parseFloat(data["J-D"]) || 0.0
+   }
     return data;
 }
 
