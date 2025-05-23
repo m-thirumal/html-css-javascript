@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Lazyloading</title>
+    </head>
+    <body>
+        <h1>Lazyloading</h1>
+        <p>Lazy loading is a design pattern that postpones loading non-essential resources at the point of page load. It is used to improve performance and reduce initial load time.</p>
+        <p>In web development, lazy loading is often used for images, videos, and other media files. Instead of loading all resources at once, lazy loading loads them only when they are needed, such as when they come into the viewport.</p>
+        <p>For example, in HTML, you can use the "loading" attribute with the value "lazy" on an image tag to enable lazy loading:</p>
+        <pre><code>&lt;img src="/img/Lazyloading.png" alt="Lazy loaded image" loading="lazy"&gt;</code></pre>
+        <img src="../img/Lazyloading.png" alt="Lazy loaded image" loading="lazy">
+        <p>In this example, the image will only be loaded when it is about to enter the viewport, reducing the initial load time of the page.</p>
+
+        <p>Lazy loading can also be implemented using JavaScript libraries or frameworks, such as Intersection Observer API, which allows you to detect when an element enters the viewport and load it dynamically.</p>
+        <p>Overall, lazy loading is a useful technique for optimizing web performance and improving user experience by reducing load times and resource consumption.</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <p>sample data for showing second page</p>
+        <img src="../img/Lazyloading.png" alt="Lazy loaded image" loading="lazy">
+    </body>
+</html>
