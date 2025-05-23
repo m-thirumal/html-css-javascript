@@ -1,2 +1,2 @@
-# javascript-learning
-Javascript Learning
+# Html, CSS & Javascript
+
