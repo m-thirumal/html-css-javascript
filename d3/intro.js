@@ -18,5 +18,16 @@ function processData(data) {
 
 function graph(data, id) {
     console.log(id, data);
+    let width = 4;
+    let height = 300;
+    let svg = d3.select(id).append("svg")
+        .attr("width", data.length * width)
+        .attr("height", height);
+    let rect = svg.selectAll("rect")
+    .data(data).enter().append("rect")
+        .attr("width", width)
+        .attr("height", 3000)
+        .attr("x", (d, i) => i * width)
+        .attr("y", 0);
 }
 
